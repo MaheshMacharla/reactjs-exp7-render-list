@@ -1,12 +1,23 @@
-# React + Vite
+![WhatsApp Image 2025-09-11 at 13 23 39_bc9c0630](https://github.com/user-attachments/assets/87ec51a7-66d7-4d02-a782-adf708fd73ce)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Student List Rendering Example
 
-## Expanding the ESLint configuration
+This project demonstrates **list rendering in React with Vite**.  
+A list of student names is displayed dynamically using the `map()` function, with each list item assigned a unique `key` prop.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Screenshot
+Below is a screenshot of the app running on `http://localhost:5173/`:
+
+![Student List Screenshot](./WhatsApp%20Image%202025-09-11%20at%2013.23.39_12865585.jpg)
+
+### Explanation
+- A predefined array of students (`Mahesh, Gani, Harini, Sai`) is stored in the component.  
+- Using the `map()` function, each student is rendered as an `<li>` element.  
+- The `key` prop ensures that each list item is uniquely identifiable by React.  
+- Example code:  
+  ```jsx
+  {students.map((student) => (
+    <li key={student.id}>{student.name}</li>
+  ))}
