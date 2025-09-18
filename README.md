@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-09-11 at 13 23 39_bc9c0630](https://github.com/user-attachments/assets/87ec51a7-66d7-4d02-a782-adf708fd73ce)
+
 
 
 
@@ -10,7 +10,7 @@ A list of student names is displayed dynamically using the `map()` function, wit
 ### Screenshot
 Below is a screenshot of the app running on `http://localhost:5173/`:
 
-![Student List Screenshot](./WhatsApp%20Image%202025-09-11%20at%2013.23.39_12865585.jpg)
+![WhatsApp Image 2025-09-11 at 13 23 39_bc9c0630](https://github.com/user-attachments/assets/87ec51a7-66d7-4d02-a782-adf708fd73ce)
 
 ### Explanation
 - A predefined array of students (`Mahesh, Gani, Harini, Sai`) is stored in the component.  
